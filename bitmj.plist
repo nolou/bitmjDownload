@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/nolou/bitmjDownload/master/Icon-180.png</string>
+					<string>http://nolou.github.io/bitmjDownload/master/Icon-180.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
