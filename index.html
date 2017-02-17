@@ -9,8 +9,27 @@
   <script src="install.js"></script>
 </head>
 <body>
-  <h3 style="text-align: center; padding: 20px;">請使用iOS中的Safari打開此頁面</h3>
+		<div class="bg">
+			<a class="bg_btn" onclick="openInstallURL();" href="#"></a>
+		</div>
+  <!--<h3 style="text-align: center; padding: 20px;">請使用iOS中的Safari打開此頁面</h3>
   <install-btn onclick="openInstallURL();">比特幣麻將[点击安装]</install-btn>
-  <h4 style="text-align: center; padding: 20px;">安裝完成後請到--設定--一般--描述檔與裝置--企業應用--FNF AUSTRALIA PTY LTD--信任</h3>
+  <h4 style="text-align: center; padding: 20px;">安裝完成後請到--設定--一般--描述檔與裝置--企業應用--FNF AUSTRALIA PTY LTD--信任</h3>-->
 </body>
+<script> 
+
+ (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 720) + 'px';
+                };
+ 
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
 </html>
