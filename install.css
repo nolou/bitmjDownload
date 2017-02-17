@@ -27,11 +27,27 @@ install-btn {
 		zoom: 1; 
 }
 .bg_btn{
-	    height: 1rem;
-    width: 5.8rem;
-    background: red;
+	    height: 1.02rem;
+    width: 5.87rem;
+    background: #f2fabf;
     position: absolute;
-    top: 9.14rem;
-    left: 0.66rem;
-    opacity: 0;
+    top: 9.13rem;
+    left: 0.6rem;
+    font-size: 0.56rem;
+    text-decoration: none;
+    color: #040a1b;
+    text-align: center;
+    line-height: 1rem;
+    font-family: 微软雅黑;
+    border-radius: 10px;
+}
+.bg_btn:hover{
+    background: #c58b0e;
+}
+@media screen and (max-width: 640px){
+	.bg_btn{
+		    left: 0.64rem;
+		border-radius: 3px;
+	}
+
 }
